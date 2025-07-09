@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
 // Altere os dados conforme sua configuração local
-const sequelize = new Sequelize('nome_do_banco', 'usuario', 'senha', {
+const sequelize = new Sequelize('exemplo', 'root', '0301', {
   host: 'localhost',
   dialect: 'mysql', // Pode ser 'postgres', 'sqlite', etc.
 });
